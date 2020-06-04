@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50024" started-at="2020-06-03T18:04:50 EDT" finished-at="2020-06-03T18:05:40 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50024" started-at="2020-06-03T18:04:50 EDT" finished-at="2020-06-03T18:05:40 EDT">
+      <class name="Amazon.Orders.TestOne">
+        <test-method status="PASS" signature="intlz()[pri:0, instance:Amazon.Orders.TestOne@73a1e9a9]" name="intlz" is-config="true" duration-ms="29854" started-at="2020-06-03T18:04:50 EDT" finished-at="2020-06-03T18:05:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intlz -->
+        <test-method status="PASS" signature="HomePage(java.lang.String, java.lang.String)[pri:0, instance:Amazon.Orders.TestOne@73a1e9a9]" name="HomePage" duration-ms="18519" started-at="2020-06-03T18:05:20 EDT" data-provider="getData" finished-at="2020-06-03T18:05:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishnakanthpamarthi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indian@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Amazon.Orders.TestOne@73a1e9a9]" name="teardown" is-config="true" duration-ms="990" started-at="2020-06-03T18:05:39 EDT" finished-at="2020-06-03T18:05:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Amazon.Orders.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
